@@ -1,0 +1,17 @@
+.hotaccessorisemanu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hotaccessoriselink{
+    text-decoration: none;
+    color: rgb(94,94,94);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.hotaccessoriselink:hover{
+    color: orange;
+    border-bottom: 1px solid orange;
+}

@@ -1,0 +1,38 @@
+.prev{
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    color: white;
+    flex-direction: row;
+    height: 2.5rem;
+    justify-content: space-around;
+
+}
+
+.prev a{
+    color: #b4b4b4;
+    font-size: .5vmax;
+    font-weight: 300;
+    margin: 1vmax;
+    text-decoration: none;
+    font-family: "Gill Sans";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.prev a :last-child{
+    justify-content: space-evenly;
+}
+.prev div {
+    display: flex;
+    align-items: center;
+}
+.prev a svg{
+fill: rgb(180,180,180);
+}
+
+.prev a:hover ,.prev a svg:hover{
+    color: white;
+    fill: white;
+}

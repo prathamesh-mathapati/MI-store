@@ -1,0 +1,23 @@
+.HotItem{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+cursor: pointer;
+transition: all 0.5s;
+width: 31%;
+}
+.hotaccessorise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: ;
+}
+
+.HotItem img{
+width: 70%;
+}
+
+.HotItem:hover{
+    box-shadow: 6px 6px 15px rgb(53, 53,53, 0.363);
+}

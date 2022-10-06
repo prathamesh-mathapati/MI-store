@@ -1,0 +1,49 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.navlinks{
+color: rgb(59,59,59);
+text-decoration: none;
+margin: 1% 1.2%;
+font-family: Georgia, 'Times New Roman', Times, serif,;
+font-weight: 500;
+font-size: 1.3rem;
+}
+.navlinks:hover{
+    color: orangered;
+}
+.seachIcon{
+    position: relative;
+    left: 5vmax;
+}
+#logoImage{
+    transition: all 0.3s;
+    transform: translateX(-58px);
+}
+#logoImage:hover{
+    transform: translateX(0);
+}
+.logo{
+    background-color: orangered;
+    width: 3.5rem;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    right: 2vmax;
+}
+.seachIcon input{
+    border: none;
+    border-bottom: 1px solid rgb(128,128,128,0.76);
+    outline: none;
+    font-size: 1rem;
+    color: rgb(61,61,61);
+    font-weight: 100;
+}
+.seachIcon svg{
+    fill: grey;
+}
